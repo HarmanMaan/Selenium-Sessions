@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Passage Suite]">
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Practice.Passage_to_India">
+        <methods>
+          <include name="url"/>
+          <include name="random"/>
+        </methods>
+      </class> <!-- Practice.Passage_to_India -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Passage Suite] -->

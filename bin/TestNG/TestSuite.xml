@@ -1,0 +1,12 @@
+<suite name="Gmail suite">
+<test name="Gmail results">
+<classes>
+<class name="TestNG.yahoo_login_logout">
+<methods>
+<include name="verifylogin"></include>
+<include name="f"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

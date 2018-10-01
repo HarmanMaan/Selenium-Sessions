@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo suite]">
+  <test thread-count="5" name="Yahoo results(failed)">
+    <classes>
+      <class name="TestNG.yahoo_login_logout">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNG.yahoo_login_logout -->
+    </classes>
+  </test> <!-- Yahoo results(failed) -->
+</suite> <!-- Failed suite [Yahoo suite] -->

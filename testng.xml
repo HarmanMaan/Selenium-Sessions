@@ -1,0 +1,9 @@
+
+
+<suite name="ExpediaSuite">
+  <test thread-count="5" name="booking">
+    <classes>
+      <class name="TestNG.Expedia"/>
+    </classes>
+  </test> <!-- booking -->
+</suite> <!-- ExpediaSuite -->

@@ -1,0 +1,48 @@
+<suite name="Batch execution">
+<test name="Ajax results">
+<classes>
+<class name="TestNG.Ajax">
+<methods>
+<include name="f"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="Gamil results">
+<classes>
+<class name="TestNG.gmail_login_logout">
+<methods>
+<include name="gmail_login"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="Dropdown results">
+<classes>
+<class name="TestNG.Verifydropdown">
+<methods>
+<include name="f"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="Info cmds results">
+<classes>
+<class name="TestNG.iformation_commands">
+<methods>
+<include name="f"></include>
+</methods>
+</class>
+</classes>
+</test>
+<test name="Yahoo results">
+<classes>
+<class name="TestNG.yahoo_login_logout">
+<methods>
+<include name="verifylogin"></include>
+<include name="f"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
