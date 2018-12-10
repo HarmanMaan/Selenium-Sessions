@@ -29,7 +29,7 @@ public class webhandle {
 			  System.out.println(s[i]);
 		  else if(s[i].equalsIgnoreCase("Male (MLE)" ))
 			  System.out.println(s[i]);
-		  
+	   
 		  
 			  
 	  }

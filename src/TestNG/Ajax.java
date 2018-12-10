@@ -15,7 +15,7 @@ public class Ajax {
 	  String str;
 	  driver.findElement(By.name("q")).sendKeys("selenium");
 	  Thread.sleep(5000);
-	  str=driver.findElement(By.xpath("//*[@id='sbtc']/div[2]/div[2]/div[1]/div/ul")).getText();
+	  str=driver.findElement(By.xpath("/html/body/div/div[3]/form/div[2]/div")).getText();
 	  System.out.println(str);
 	  
 	  String [] s=str.split("\n");
@@ -29,8 +29,7 @@ public class Ajax {
 			  driver.findElement(By.name("q")).clear();
 			  driver.findElement(By.name("q")).sendKeys(s[i]);
 			  driver.findElement(By.cssSelector("input.lsb")).click();
-		  }
-			  
+		  }           	  
 	  }
   }
   @BeforeTest

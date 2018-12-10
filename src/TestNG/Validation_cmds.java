@@ -13,7 +13,7 @@ public class Validation_cmds {
   @Test
   public void f() throws Exception {
 	  String str=driver.findElement(By.id("logo")).getAttribute("title");//Tool Tip
-	  System.out.println(str);
+	  System.out.println("The Attributr of title is : "+str);
 	  
 	  
 	  driver.findElement(By.linkText("HMS")).click();

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.Passage_to_India">
+      <class name="Practice.Expedia_hotel_booking">
         <methods>
-          <include name="url"/>
-          <include name="random"/>
+          <include name="hotel"/>
+          <include name="beforetest"/>
         </methods>
-      </class> <!-- Practice.Passage_to_India -->
+      </class> <!-- Practice.Expedia_hotel_booking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
